@@ -48,16 +48,3 @@ footer {
     border-top: none;
     padding: 10px;
 }
-
-body {
-    background-color:violet;
-}
-@media (min-width:768px) {
-    body {
-        background-color: tomato;
-    }
-} 
-
-.card {
-    background-color: turquoise;
-}
