@@ -113,11 +113,11 @@
             <div class="col">
                 <h3>Community Partners</h3>                
        
-                <div id="accordion">
+                <div class="accordion" id="accordion">
                     <div class= "card">
                         <div role ="tab" class="card-header">
                             <h4>
-                                <a data-toggle="collapse" data-toggle ="collapse" data-target="#bootsrap"> Bootstrap Outfitters <small>Outdoor Gear Specialists</small> 
+                                <a data-toggle="collapse" data-target="#bootsrap"> Bootstrap Outfitters <small>Outdoor Gear Specialists</small> 
                                 </a>
                             </h4>
                             <div class=" collapse show" id="bootstrap" data-parent ="#accordion">
@@ -201,6 +201,12 @@
  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+ <script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 
 </html>
